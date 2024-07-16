@@ -21,6 +21,7 @@ module.exports = {
     'simple-import-sort',
     'sort-destructure-keys',
     'sort-keys-fix',
+    'import'
   ],
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
