@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "jsx": "react-native",
+    "lib": ["ESNEXT"],
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "ESNEXT",
+    "paths": {
+      "@atoms": ["src/components/atoms"],
+      "@molecules": ["src/components/molecules"],
+      "@navigation": ["src/navigation"],
+      "@organisms": ["src/components/organisms"],
+      "@screens": ["src/screens"],
+      "@store": ["src/store"],
+      "@styles": ["src/styles"],
+      "@svgs/*": ["src/assets/svgs/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

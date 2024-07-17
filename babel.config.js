@@ -3,7 +3,16 @@ module.exports = {
     [
       'module-resolver',
       {
-        alias: {},
+        alias: {
+          '@atoms': './src/components/atoms',
+          '@molecules': './src/components/molecules',
+          '@navigation': './src/navigation',
+          '@organisms': './src/components/organisms',
+          '@screens': './src/screens',
+          '@store': './src/store',
+          '@styles': './src/styles',
+          '@svgs': './src/assets/svgs',
+        },
         extentions: ['.js', '.jsx'],
         root: ['./'],
       },

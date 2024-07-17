@@ -9,17 +9,18 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RN_Test_assignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RN_Test_assignmentTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RN_Test_assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RN_Test_assignment.a */; };
+		1048D70D4150465D61FDF38D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C8D55BEF820C09A6CF0AF94C /* PrivacyInfo.xcprivacy */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7436342BB9774FF7A92CF2BC /* Georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C30034955B624C9CBB3EA2E6 /* Georgia.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-RN_Test_assignment-RN_Test_assignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RN_Test_assignment-RN_Test_assignmentTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		79C82C9E94BD4A1598C14BFA /* AlbertSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA5B9B07B404B89957E5E87 /* AlbertSans-Bold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		869FCBA5DC74454A9A1950D5 /* AlbertSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5C1BF8EB3F843CA8FF7D338 /* AlbertSans-ExtraBold.ttf */; };
 		CF31AC120191430C992966C7 /* AlbertSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3E9FC5CAA3475790881FA0 /* AlbertSans-Medium.ttf */; };
 		F45BBB6AA21F4EBAB83AF6D2 /* AlbertSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EBEF15EB336498FAB44372C /* AlbertSans-Regular.ttf */; };
 		F808E4B7BA944DD8B5B5C922 /* AlbertSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA998A2E9144568A2953FA8 /* AlbertSans-SemiBold.ttf */; };
-		7436342BB9774FF7A92CF2BC /* Georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C30034955B624C9CBB3EA2E6 /* Georgia.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,19 +45,20 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RN_Test_assignment/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RN_Test_assignment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RN_Test_assignment-RN_Test_assignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN_Test_assignment-RN_Test_assignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBEF15EB336498FAB44372C /* AlbertSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AlbertSans-Regular.ttf"; path = "../src/assets/fonts/AlbertSans-Regular.ttf"; sourceTree = "<group>"; };
+		2FA5B9B07B404B89957E5E87 /* AlbertSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AlbertSans-Bold.ttf"; path = "../src/assets/fonts/AlbertSans-Bold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RN_Test_assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Test_assignment.debug.xcconfig"; path = "Target Support Files/Pods-RN_Test_assignment/Pods-RN_Test_assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		4AA998A2E9144568A2953FA8 /* AlbertSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AlbertSans-SemiBold.ttf"; path = "../src/assets/fonts/AlbertSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RN_Test_assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Test_assignment.release.xcconfig"; path = "Target Support Files/Pods-RN_Test_assignment/Pods-RN_Test_assignment.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RN_Test_assignment-RN_Test_assignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Test_assignment-RN_Test_assignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-RN_Test_assignment-RN_Test_assignmentTests/Pods-RN_Test_assignment-RN_Test_assignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RN_Test_assignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN_Test_assignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RN_Test_assignment/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RN_Test_assignment-RN_Test_assignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Test_assignment-RN_Test_assignmentTests.release.xcconfig"; path = "Target Support Files/Pods-RN_Test_assignment-RN_Test_assignmentTests/Pods-RN_Test_assignment-RN_Test_assignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5C1BF8EB3F843CA8FF7D338 /* AlbertSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AlbertSans-ExtraBold.ttf"; path = "../src/assets/fonts/AlbertSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C30034955B624C9CBB3EA2E6 /* Georgia.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Georgia.ttf; path = ../src/assets/fonts/Georgia.ttf; sourceTree = "<group>"; };
+		C8D55BEF820C09A6CF0AF94C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = RN_Test_assignment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		2FA5B9B07B404B89957E5E87 /* AlbertSans-Bold.ttf */ = {isa = PBXFileReference; name = "AlbertSans-Bold.ttf"; path = "../src/assets/fonts/AlbertSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B5C1BF8EB3F843CA8FF7D338 /* AlbertSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "AlbertSans-ExtraBold.ttf"; path = "../src/assets/fonts/AlbertSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FC3E9FC5CAA3475790881FA0 /* AlbertSans-Medium.ttf */ = {isa = PBXFileReference; name = "AlbertSans-Medium.ttf"; path = "../src/assets/fonts/AlbertSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2EBEF15EB336498FAB44372C /* AlbertSans-Regular.ttf */ = {isa = PBXFileReference; name = "AlbertSans-Regular.ttf"; path = "../src/assets/fonts/AlbertSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4AA998A2E9144568A2953FA8 /* AlbertSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "AlbertSans-SemiBold.ttf"; path = "../src/assets/fonts/AlbertSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C30034955B624C9CBB3EA2E6 /* Georgia.ttf */ = {isa = PBXFileReference; name = "Georgia.ttf"; path = "../src/assets/fonts/Georgia.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC3E9FC5CAA3475790881FA0 /* AlbertSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AlbertSans-Medium.ttf"; path = "../src/assets/fonts/AlbertSans-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				C8D55BEF820C09A6CF0AF94C /* PrivacyInfo.xcprivacy */,
 			);
 			name = RN_Test_assignment;
 			sourceTree = "<group>";
@@ -152,6 +155,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8F234C6CA1DE4004B48AAB74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FA5B9B07B404B89957E5E87 /* AlbertSans-Bold.ttf */,
+				B5C1BF8EB3F843CA8FF7D338 /* AlbertSans-ExtraBold.ttf */,
+				FC3E9FC5CAA3475790881FA0 /* AlbertSans-Medium.ttf */,
+				2EBEF15EB336498FAB44372C /* AlbertSans-Regular.ttf */,
+				4AA998A2E9144568A2953FA8 /* AlbertSans-SemiBold.ttf */,
+				C30034955B624C9CBB3EA2E6 /* Georgia.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,20 +179,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		8F234C6CA1DE4004B48AAB74 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				2FA5B9B07B404B89957E5E87 /* AlbertSans-Bold.ttf */,
-				B5C1BF8EB3F843CA8FF7D338 /* AlbertSans-ExtraBold.ttf */,
-				FC3E9FC5CAA3475790881FA0 /* AlbertSans-Medium.ttf */,
-				2EBEF15EB336498FAB44372C /* AlbertSans-Regular.ttf */,
-				4AA998A2E9144568A2953FA8 /* AlbertSans-SemiBold.ttf */,
-				C30034955B624C9CBB3EA2E6 /* Georgia.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -278,6 +281,7 @@
 				F45BBB6AA21F4EBAB83AF6D2 /* AlbertSans-Regular.ttf in Resources */,
 				F808E4B7BA944DD8B5B5C922 /* AlbertSans-SemiBold.ttf in Resources */,
 				7436342BB9774FF7A92CF2BC /* Georgia.ttf in Resources */,
+				1048D70D4150465D61FDF38D /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -577,6 +582,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -596,6 +602,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -615,7 +623,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -623,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -650,6 +665,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -662,6 +678,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -680,7 +698,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

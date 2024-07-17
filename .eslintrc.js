@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'airbnb',
+    '@react-native',
     'airbnb/hooks',
     'plugin:react-hooks/recommended',
     'prettier',
@@ -21,8 +22,8 @@ module.exports = {
     'simple-import-sort',
     'sort-destructure-keys',
     'sort-keys-fix',
-    'import',
   ],
+  root: true,
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
     'import/prefer-default-export': 'off',
@@ -31,6 +32,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-sort-props': 'error',
     'react/no-array-index-key': 'off',
+    'react/no-unstable-nested-components': 'off',
     'react/prop-types': ['error'],
     'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
@@ -39,7 +41,16 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
-      alias: [['@atoms', './src/components/atoms']],
+      alias: [
+        ['@svgs', './src/assets/svgs'],
+        ['@atoms', './src/components/atoms'],
+        ['@molecules', './src/components/molecules'],
+        ['@organisms', './src/components/organisms'],
+        ['@navigation', './src/navigation'],
+        ['@screens', './src/screens'],
+        ['@store', './src/store'],
+        ['@styles', './src/styles'],
+      ],
     },
   },
 };
