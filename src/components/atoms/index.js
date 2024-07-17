@@ -1,0 +1,1 @@
+export { BottomTabIndicator } from './BottomTabIndicator';
