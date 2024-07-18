@@ -33,6 +33,7 @@ export const Typography = styled((props) => (
           fontFamily: 'AlbertSans',
           fontSize: '38px',
           fontWeight: 700,
+          letterSpacing: '-1.7px',
           lineHeight: '45.6px',
         },
         'extraBold-s17-lh20': {
@@ -51,6 +52,7 @@ export const Typography = styled((props) => (
           fontFamily: 'AlbertSans',
           fontSize: '24px',
           fontWeight: 800,
+          letterSpacing: '-0.68px',
           lineHeight: '28.8px',
         },
         'extraBold-s38-lh45': {

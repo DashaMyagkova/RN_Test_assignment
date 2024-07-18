@@ -53,6 +53,7 @@ module.exports = {
         ['@styles', './src/styles'],
         ['@constants', './src/constants'],
         ['@hocs', './src/hocs'],
+        ['@helpers', './src/helpers'],
       ],
     },
   },

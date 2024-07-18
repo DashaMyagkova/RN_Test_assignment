@@ -6,6 +6,7 @@ module.exports = {
         alias: {
           '@atoms': './src/components/atoms',
           '@constants': './src/constants',
+          '@helpers': './src/helpers',
           '@hocs': './src/hocs',
           '@molecules': './src/components/molecules',
           '@navigation': './src/navigation',
