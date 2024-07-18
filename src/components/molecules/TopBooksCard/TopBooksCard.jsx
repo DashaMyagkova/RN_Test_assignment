@@ -1,18 +1,23 @@
 import { BookInfoPreview } from '@atoms';
+import { images } from '@mocks/images';
 import BookCover from '@pngs/book/bookCover.png';
 import { useNavigation } from '@react-navigation/native';
+import { readingSlice } from '@store';
 import { Flex } from '@styles';
 import { arrayOf, shape } from 'prop-types';
 import React, { useMemo } from 'react';
 import { Pressable } from 'react-native';
 import FastImage from 'react-native-fast-image';
+import { useDispatch } from 'react-redux';
 
 import { imageStyle } from './TopBooksCard.styles';
 
 const TopBooksCard = ({ books }) => {
   const navigation = useNavigation();
+  const dispatch = useDispatch();
 
-  const handleBookCardPress = () => {
+  const handleBookCardPress = (book) => () => {
+    dispatch(readingSlice.actions.setCurrentBook(book));
     navigation.navigate('BookStack', { screen: 'Reading' });
   };
 
@@ -24,13 +29,13 @@ const TopBooksCard = ({ books }) => {
       alignItems="center"
       as={Pressable}
       flexDirection="row"
-      onPress={handleBookCardPress}
+      onPress={handleBookCardPress(book)}
       {...(index !== memorizedBooks.length - 1 && {
         marginBottom: '16px',
       })}
     >
       <FastImage source={BookCover} style={imageStyle.bookCover} />
-      <FastImage source={book.imageUri} style={imageStyle.image} />
+      <FastImage source={images[book.imageUri]} style={imageStyle.image} />
       <BookInfoPreview
         bookOrder={book.order}
         bookTag={book.tag}

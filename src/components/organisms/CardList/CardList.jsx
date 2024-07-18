@@ -21,7 +21,7 @@ const CardList = ({
     : null;
 
   const cardWidth =
-    cardVariant === 'book'
+    cardVariant === 'books'
       ? (windowWidth - scrollOffset * 2) / 2 - gap / 2
       : windowWidth - scrollOffset * 2;
 
@@ -33,9 +33,7 @@ const CardList = ({
         titleText={card.titleText}
       />
     ),
-    book: (card) => (
-      <BookCard imageUri={card.imageUri} titleText={card.titleText} />
-    ),
+    books: (card) => <BookCard book={card} />,
     topSeries: (card) => <TopBooksCard books={card} />,
   };
 
