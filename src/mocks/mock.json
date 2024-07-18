@@ -1,0 +1,209 @@
+{
+  "data": [
+    {
+      "type": "banner",
+      "id": "e88a5d65-7054-4872-8083-91c165beeeb2",
+      "titleText": null,
+      "listNavigationKey": null,
+      "items": [
+        {
+          "id": "bd9c5e21-47cb-41cb-9a76-ebdc3bab6718",
+          "imageUri": "banner",
+          "tag": "Free",
+          "titleText": "Special Event 1"
+        },
+        {
+          "id": "2a18dbf6-d240-497b-a7a3-6eb42f9de8f8",
+          "imageUri": "banner",
+          "tag": "Free",
+          "titleText": "Special Event 2"
+        },
+        {
+          "id": "0f153966-4723-4ee4-9f4d-e79b9cf5cf53",
+          "imageUri": "banner",
+          "tag": "Free",
+          "titleText": "Special Event 3"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "id": "69a9d674-d786-4d12-82a0-ead07f4a90bf",
+      "titleText": "Trending Now",
+      "listNavigationKey": "trending",
+      "items": [
+        {
+          "id": "ad9a636e-17b7-4aac-b259-0585685de5d7",
+          "imageUri": "cover_1",
+          "titleText": "His Her, Sugar, Mila and other"
+        },
+        {
+          "id": "b7bdf857-f6e9-4d0b-8e0b-a2b34120750f",
+          "imageUri": "cover_2",
+          "titleText": "Stranded"
+        },
+        {
+          "id": "ff334b5f-3ee8-4da8-aae4-07e881c22ed3",
+          "imageUri": "cover_3",
+          "titleText": "The Mafia Boss' S*x Maid"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "id": "8f08a995-f11f-4c10-add3-c6de07bef732",
+      "titleText": "Romance",
+      "listNavigationKey": "romance",
+      "items": [
+        {
+          "id": "282ca38e-7259-451c-9d38-b3330e9f1c7d",
+          "imageUri": "cover_4",
+          "titleText": "Ex with benefits; Blackmail"
+        },
+        {
+          "id": "85bcbdb9-8df7-4f6f-aab2-a4a13102aa02",
+          "imageUri": "cover_5",
+          "titleText": "Princezone"
+        },
+        {
+          "id": "59668c81-9c02-4a7f-ae24-ad20e2d2711c",
+          "imageUri": "cover_6",
+          "titleText": "Stabbed by Rose"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "id": "b5d4f1c7-8946-4433-b534-4a79d1bf400c",
+      "titleText": "Billionaire",
+      "listNavigationKey": "billionaire",
+      "items": [
+        {
+          "id": "bc9bc1d1-972c-43d2-a5ba-e5ff46d046fc",
+          "imageUri": "cover_7",
+          "titleText": "The Alpha Demon's Kidnapped Mate"
+        },
+        {
+          "id": "9357a2a7-9897-4553-af2d-7ea6953a705c",
+          "imageUri": "cover_8",
+          "titleText": "Last Enchantment"
+        },
+        {
+          "id": "699d2c65-23b7-4aeb-af36-d2a519502b7a",
+          "imageUri": "cover_9",
+          "titleText": "The Silent Rogue"
+        }
+      ]
+    },
+    {
+      "type": "topSeries",
+      "id": "6e79fc50-9a8b-4805-ad52-5a25c5cea3a7",
+      "titleText": "Top Series",
+      "listNavigationKey": null,
+      "items": [
+        {
+          "id": "0c1b10ec-ec1f-4d87-b333-f2c7c6cc03d1",
+          "imageUri": "cover_10",
+          "order": 1,
+          "readsAmount": 476788,
+          "tag": "Funfiction",
+          "titleText": "Man of Her Dreams"
+        },
+        {
+          "id": "b63ec152-fb0b-4496-9ba0-2b2ac5c6e35b",
+          "imageUri": "cover_11",
+          "order": 2,
+          "readsAmount": 432422,
+          "tag": "Funfiction",
+          "titleText": "Fall for Dylan Lemiere"
+        },
+        {
+          "id": "9357a2a7-9897-4553-af2d-7ea6953a705c",
+          "imageUri": "cover_13",
+          "order": 4,
+          "readsAmount": 102923,
+          "tag": "Funfiction",
+          "titleText": "Last Enchantment"
+        },
+        {
+          "id": "9357a2a7-9897-4553-af2d-7ea6953a705c",
+          "imageUri": "cover_14",
+          "order": 5,
+          "readsAmount": 98309,
+          "tag": "Funfiction",
+          "titleText": "The Silent Rogue"
+        },
+        {
+          "id": "6a110801-fa96-4d6e-a9fd-975b16b00787",
+          "imageUri": "cover_12",
+          "order": 3,
+          "readsAmount": 273647,
+          "tag": "Funfiction",
+          "titleText": "Not in the Contact"
+        },
+        {
+          "id": "85bcbdb9-8df7-4f6f-aab2-a4a13102aa02",
+          "imageUri": "cover_15",
+          "order": 6,
+          "readsAmount": 7934,
+          "tag": "Funfiction",
+          "titleText": "Princezone"
+        },
+        {
+          "id": "bc9bc1d1-972c-43d2-a5ba-e5ff46d046fc",
+          "imageUri": "cover_16",
+          "order": 7,
+          "readsAmount": 79,
+          "tag": "Funfiction",
+          "titleText": "The Alpha Demon's Kidnapped Mate"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "id": "502c9f94-7e44-4635-a564-0e4ee263d06e",
+      "titleText": "Authors You Might Know",
+      "listNavigationKey": "authors",
+      "items": [
+        {
+          "id": "e584c0a9-d3c4-4973-9206-d32c67bb33eb",
+          "imageUri": "cover_17",
+          "titleText": "Dragon’s Prize"
+        },
+        {
+          "id": "016bdbe6-2403-4694-9030-752a620e05fe",
+          "imageUri": "cover_18",
+          "titleText": "Real Deal"
+        },
+        {
+          "id": "119ab9c8-ebad-4053-a965-fb59b8702ee5",
+          "imageUri": "cover_19",
+          "titleText": "His blonde little secret"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "id": "9f251c74-9b51-4394-9dc2-b582146c5974",
+      "titleText": "Top romance",
+      "listNavigationKey": "topRomance",
+      "items": [
+        {
+          "id": "2b0a150d-8848-46f4-8a95-9be7b7b19d3a",
+          "imageUri": "cover_20",
+          "titleText": "Snow Kissed"
+        },
+        {
+          "id": "d6764075-5cf5-4b57-89ad-ac8cd7e7e87e",
+          "imageUri": "cover_21",
+          "titleText": "The snow moon Healer"
+        },
+        {
+          "id": "65f62017-89fb-4501-8c40-83d2b9e85f52",
+          "imageUri": "cover_22",
+          "titleText": "I Love You Since 1892"
+        }
+      ]
+    }
+  ]
+}

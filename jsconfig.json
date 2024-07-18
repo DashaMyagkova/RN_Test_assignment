@@ -28,7 +28,7 @@
       "@constants": ["src/constants"],
       "@hocs": ["src/hocs"],
       "@helpers": ["src/helpers"],
-      "@mocks": ["src/mocks"],
+      "@mocks": ["src/mocks"]
     }
   },
   "exclude": ["node_modules", "dist"]
