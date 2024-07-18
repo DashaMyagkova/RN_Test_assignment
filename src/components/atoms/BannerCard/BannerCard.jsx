@@ -1,6 +1,7 @@
 import { withFlexProps } from '@hocs';
+import { images } from '@mocks/images';
 import { Flex, theme, Typography } from '@styles';
-import { number, string } from 'prop-types';
+import { string } from 'prop-types';
 import React from 'react';
 import { Pressable } from 'react-native';
 import FastImage from 'react-native-fast-image';
@@ -18,14 +19,14 @@ const BannerCard = ({ bannerTag, imageUri, titleText }) => {
       <Typography paddingBottom="12px" variant="semiBold-s20-lh24">
         {titleText}
       </Typography>
-      <FastImage source={imageUri} style={imageStyle} />
+      <FastImage source={images[imageUri]} style={imageStyle} />
     </Flex>
   );
 };
 
 BannerCard.propTypes = {
   bannerTag: string.isRequired,
-  imageUri: number.isRequired,
+  imageUri: string.isRequired,
   titleText: string.isRequired,
 };
 
