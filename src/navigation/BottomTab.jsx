@@ -1,7 +1,6 @@
 import { BottomTabIndicator } from '@atoms';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Achievements, Discover, Library, Profile } from '@screens';
-import { theme } from '@styles';
 import React from 'react';
 
 const Tab = createBottomTabNavigator();
@@ -12,10 +11,6 @@ const BottomTab = () => (
     screenOptions={{
       gestureEnabled: false,
       headerShown: false,
-      tabBarStyle: {
-        borderTopColor: theme.colors.whisper,
-        borderTopWidth: '1px',
-      },
     }}
   >
     <Tab.Screen
