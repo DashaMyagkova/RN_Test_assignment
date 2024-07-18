@@ -43,6 +43,7 @@ module.exports = {
     'import/resolver': {
       alias: [
         ['@svgs', './src/assets/svgs'],
+        ['@pngs', './src/assets/pngs'],
         ['@atoms', './src/components/atoms'],
         ['@molecules', './src/components/molecules'],
         ['@organisms', './src/components/organisms'],
@@ -50,6 +51,8 @@ module.exports = {
         ['@screens', './src/screens'],
         ['@store', './src/store'],
         ['@styles', './src/styles'],
+        ['@constants', './src/constants'],
+        ['@hocs', './src/hocs'],
       ],
     },
   },

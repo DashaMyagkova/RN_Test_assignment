@@ -23,7 +23,10 @@
       "@screens": ["src/screens"],
       "@store": ["src/store"],
       "@styles": ["src/styles"],
-      "@svgs/*": ["src/assets/svgs/*"]
+      "@svgs/*": ["src/assets/svgs/*"],
+      "@pngs/*": ["src/assets/pngs/*"],
+      "@constants": ["src/constants"],
+      "@hocs": ["src/hocs"],
     }
   },
   "exclude": ["node_modules", "dist"]
