@@ -27,7 +27,8 @@
       "@pngs/*": ["src/assets/pngs/*"],
       "@constants": ["src/constants"],
       "@hocs": ["src/hocs"],
-      "@helpers": ["src/helpers"]
+      "@helpers": ["src/helpers"],
+      "@mocks": ["src/mocks"],
     }
   },
   "exclude": ["node_modules", "dist"]

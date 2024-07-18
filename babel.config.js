@@ -8,6 +8,7 @@ module.exports = {
           '@constants': './src/constants',
           '@helpers': './src/helpers',
           '@hocs': './src/hocs',
+          '@mocks': './src/mocks',
           '@molecules': './src/components/molecules',
           '@navigation': './src/navigation',
           '@organisms': './src/components/organisms',

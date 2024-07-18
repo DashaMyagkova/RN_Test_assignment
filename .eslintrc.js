@@ -54,6 +54,7 @@ module.exports = {
         ['@constants', './src/constants'],
         ['@hocs', './src/hocs'],
         ['@helpers', './src/helpers'],
+        ['@mocks', './src/mocks'],
       ],
     },
   },
