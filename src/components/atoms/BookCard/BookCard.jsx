@@ -1,7 +1,8 @@
 import { withFlexProps } from '@hocs';
+import BookCover from '@pngs/book/bookCover.png';
 import { useNavigation } from '@react-navigation/native';
 import { Flex, theme, Typography } from '@styles';
-import { string } from 'prop-types';
+import { number, string } from 'prop-types';
 import React from 'react';
 import { Pressable } from 'react-native';
 import FastImage from 'react-native-fast-image';
@@ -17,7 +18,8 @@ const BookCard = ({ imageUri, titleText }) => {
 
   return (
     <Flex as={Pressable} onPress={handleBookCardPress}>
-      <FastImage source={imageUri} style={imageStyle} />
+      <FastImage source={BookCover} style={imageStyle.bookCover} />
+      <FastImage source={imageUri} style={imageStyle.image} />
       <Typography
         color={theme.colors.waterloo}
         flex={1}
@@ -31,7 +33,7 @@ const BookCard = ({ imageUri, titleText }) => {
 };
 
 BookCard.propTypes = {
-  imageUri: string.isRequired,
+  imageUri: number.isRequired,
   titleText: string.isRequired,
 };
 
