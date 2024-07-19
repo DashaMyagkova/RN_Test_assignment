@@ -4,23 +4,20 @@ import { createSlice } from '@reduxjs/toolkit';
 import { persistReducer } from 'redux-persist';
 
 const initialState = {
+  chapterByBookId: {},
   currentBook: null,
-  currentChapter: null,
 };
 
 export const readingSlice = createSlice({
   initialState,
   name: 'readingSlice',
   reducers: {
-    resetState: (state) => {
-      state.currentBook = null;
-      state.currentChapter = null;
+    resetState: (state) => initialState,
+    setChapterByBookId: (state, { payload }) => {
+      state.chapterByBookId = { ...state.chapterByBookId, ...payload };
     },
     setCurrentBook: (state, { payload }) => {
       state.currentBook = payload;
-    },
-    setCurrentChapter: (state, { payload }) => {
-      state.currentChapter = payload;
     },
   },
 });

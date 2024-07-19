@@ -9,6 +9,7 @@ const BookStack = () => (
     screenOptions={{
       gestureEnabled: false,
       headerShown: false,
+      tabBarStyle: { height: 90 },
     }}
   >
     <Stack.Screen component={Reading} name="Reading" />

@@ -93,7 +93,7 @@ CardList.defaultProps = {
 };
 
 CardList.propTypes = {
-  cardVariant: oneOf(['book', 'banner', 'topSeries']).isRequired,
+  cardVariant: oneOf(['books', 'banner', 'topSeries']).isRequired,
   cards: arrayOf(shape({})).isRequired,
   gap: number.isRequired,
   listNavigationKey: string,

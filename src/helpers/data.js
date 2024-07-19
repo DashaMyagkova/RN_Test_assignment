@@ -1,11 +1,13 @@
+/* eslint-disable no-param-reassign */
 import { generateId } from './string';
 
 export const groupDataByChunks = (data, chunkSize) => {
-  const sortedData = data.sort((a, b) => a.order - b.order);
   const chunks = [];
-
-  for (let i = 0; i < sortedData.length; i += chunkSize) {
-    const chunk = sortedData.slice(i, i + chunkSize);
+  for (let i = 0; i < data.length; i += chunkSize) {
+    const chunk = data.slice(i, i + chunkSize);
+    chunk.forEach((item, index) => {
+      item.order = i + index + 1;
+    });
     chunks.push({ chunk, id: generateId() });
   }
 

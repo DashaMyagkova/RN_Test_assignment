@@ -1,4 +1,5 @@
 import { BookInfoPreview } from '@atoms';
+import { MIN_CHAPTER_NUMBER } from '@constants';
 import { images } from '@mocks/images';
 import BookCover from '@pngs/book/bookCover.png';
 import { useNavigation } from '@react-navigation/native';
@@ -8,16 +9,28 @@ import { arrayOf, shape } from 'prop-types';
 import React, { useMemo } from 'react';
 import { Pressable } from 'react-native';
 import FastImage from 'react-native-fast-image';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import { imageStyle } from './TopBooksCard.styles';
 
 const TopBooksCard = ({ books }) => {
+  const chapterByBookId = useSelector(
+    (state) => state.readingSlice.chapterByBookId
+  );
+
   const navigation = useNavigation();
   const dispatch = useDispatch();
 
   const handleBookCardPress = (book) => () => {
     dispatch(readingSlice.actions.setCurrentBook(book));
+    if (!Object.keys(chapterByBookId).includes(book.id)) {
+      dispatch(
+        readingSlice.actions.setChapterByBookId({
+          [book.id]: MIN_CHAPTER_NUMBER,
+        })
+      );
+    }
+
     navigation.navigate('BookStack', { screen: 'Reading' });
   };
 

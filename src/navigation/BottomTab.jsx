@@ -11,6 +11,7 @@ const BottomTab = () => (
     screenOptions={{
       gestureEnabled: false,
       headerShown: false,
+      tabBarStyle: { height: 90 },
     }}
   >
     <Tab.Screen

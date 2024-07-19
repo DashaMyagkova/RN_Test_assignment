@@ -83,7 +83,14 @@ const Discover = () => {
             </Flex>
           )}
           {...(!!currentBook && {
-            ListFooterComponent: <ContinueReadingFooter book={currentBook} />,
+            ListFooterComponent: (
+              <ContinueReadingFooter
+                book={currentBook}
+                borderTopColor={theme.colors.whisper}
+                borderTopWidth="1px"
+                paddingX="20px"
+              />
+            ),
           })}
           scrollEnabled={false}
         />

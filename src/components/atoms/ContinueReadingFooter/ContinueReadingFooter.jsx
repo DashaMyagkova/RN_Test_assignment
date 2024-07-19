@@ -23,12 +23,9 @@ const ContinueReadingFooter = ({ book }) => {
     <Flex
       alignItems="center"
       as={Pressable}
-      borderTopColor={theme.colors.whisper}
-      borderTopWidth="1px"
       flexDirection="row"
       justifyContent="space-between"
       onPress={handleContinueButtonPress}
-      paddingX="20px"
       paddingY="6.5px"
     >
       <Flex alignItems="center" flexDirection="row">

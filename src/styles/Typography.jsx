@@ -46,6 +46,7 @@ export const Typography = styled((props) => (
           fontFamily: 'AlbertSans',
           fontSize: '22px',
           fontWeight: 800,
+          letterSpacing: '-0.52px',
           lineHeight: '26.4px',
         },
         'extraBold-s24-lh28': {
