@@ -102,14 +102,6 @@
       "listNavigationKey": null,
       "items": [
         {
-          "id": "0c1b10ec-ec1f-4d87-b333-f2c7c6cc03d1",
-          "imageUri": "cover_10",
-          "order": 1,
-          "readsAmount": 476788,
-          "tag": "Funfiction",
-          "titleText": "Man of Her Dreams"
-        },
-        {
           "id": "b63ec152-fb0b-4496-9ba0-2b2ac5c6e35b",
           "imageUri": "cover_11",
           "order": 2,
@@ -132,6 +124,14 @@
           "readsAmount": 98309,
           "tag": "Funfiction",
           "titleText": "The Silent Rogue"
+        },
+        {
+          "id": "0c1b10ec-ec1f-4d87-b333-f2c7c6cc03d1",
+          "imageUri": "cover_10",
+          "order": 1,
+          "readsAmount": 476788,
+          "tag": "Funfiction",
+          "titleText": "Man of Her Dreams"
         },
         {
           "id": "6a110801-fa96-4d6e-a9fd-975b16b00787",
