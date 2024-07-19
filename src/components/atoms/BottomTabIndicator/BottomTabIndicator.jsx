@@ -14,7 +14,7 @@ const BottomTabIndicator = ({ indicatorVariant, isIndicatorFocused }) => {
         backgroundColor={
           isIndicatorFocused ? theme.colors.electricViolet : theme.colors.white
         }
-        borderRadius="10px"
+        borderRadius={10}
         bottom={0}
         height="5px"
         position="absolute"

@@ -4,8 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { persistor, store } from '@store';
 import { theme } from '@styles';
 import React, { useEffect } from 'react';
-import { Image } from 'react-native';
-import NativeDevSettings from 'react-native/Libraries/NativeModules/specs/NativeDevSettings';
+import { Image, StatusBar } from 'react-native';
+// import NativeDevSettings from 'react-native/Libraries/NativeModules/specs/NativeDevSettings';
 import FastImage from 'react-native-fast-image';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
@@ -13,7 +13,8 @@ import { ThemeProvider } from 'styled-components/native';
 
 const App = () => {
   // Is needed to enable remote JS Debugging in 0.73RN
-  NativeDevSettings.setIsDebuggingRemotely(true);
+  // NativeDevSettings.setIsDebuggingRemotely(true);
+  StatusBar.setBarStyle('dark-content', true);
 
   useEffect(() => {
     // Prefetch
@@ -29,6 +30,7 @@ const App = () => {
       <PersistGate loading={null} persistor={persistor}>
         <NavigationContainer>
           <ThemeProvider theme={theme}>
+            <StatusBar backgroundColor="white" />
             <AppStack />
           </ThemeProvider>
         </NavigationContainer>

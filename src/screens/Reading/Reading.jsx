@@ -6,7 +6,7 @@ import {
 } from '@constants';
 import { readingSlice } from '@store';
 import { Flex, theme, Typography } from '@styles';
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo, useRef } from 'react';
 import { ScrollView } from 'react-native-gesture-handler';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
@@ -20,6 +20,7 @@ const Reading = () => {
   );
 
   const dispatch = useDispatch();
+  const scrollViewRef = useRef();
 
   const handleNextChapterButtonPress = () => {
     dispatch(
@@ -42,6 +43,13 @@ const Reading = () => {
     [chapterByBookId, currentBook.id]
   );
 
+  useEffect(() => {
+    scrollViewRef.current?.scrollTo({
+      animated: false,
+      y: 0,
+    });
+  }, [chapterContent]);
+
   return (
     <Flex
       as={SafeAreaView}
@@ -56,7 +64,7 @@ const Reading = () => {
         marginBottom="10px"
         paddingX="20px"
       />
-      <ScrollView showsVerticalScrollIndicator={false}>
+      <ScrollView ref={scrollViewRef} showsVerticalScrollIndicator={false}>
         <Typography
           marginBottom="62px"
           paddingX="20px"
